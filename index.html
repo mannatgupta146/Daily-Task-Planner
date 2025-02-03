@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Task Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>Daily Task Planner <img src="images/notes.png"></h2> 
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Enter your task...">
+                <button onclick="addTask()">ADD</button>
+            </div>
+            <p id="error-msg"></p>
+            <ul id="list-container"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
